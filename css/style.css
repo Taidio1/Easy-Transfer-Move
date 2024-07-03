@@ -27,6 +27,10 @@
     gap: 0px;
 }
 
+.col-md-4 p{
+  text-align: left;
+}
+
 .pad{
   padding-bottom: 20px;
 }
