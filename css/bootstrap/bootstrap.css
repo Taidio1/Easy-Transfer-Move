@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #ee1e46;
+  --primary: #3785b0;
   --secondary: #6c757d;
   --success: #8bc34a;
   --info: #17a2b8;
@@ -5241,7 +5241,7 @@ button.bg-dark:focus {
   .d-lg-inline-block {
     display: inline-block !important; }
   .d-lg-block {
-    display: block !important; }
+    display: flex !important; }
   .d-lg-table {
     display: table !important; }
   .d-lg-table-row {
