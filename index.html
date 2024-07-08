@@ -27,7 +27,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-
+<script src="js/language.js" async></script>
 
 </head>
 
@@ -56,12 +56,12 @@
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Strona główna</a></li>
-                <li><a href="index.html#Onas" class="nav-link">O Nas</a></li>
+                <li class="active"><a id="stronaglowna" href="index.html" class="nav-link">Strona główna</a></li>
+                <li><a id="onas" href="index.html#Onas" class="nav-link">O Nas</a></li>
                 <!--<li><a href="matches.html" class="nav-link">Mecze</a></li>-->
                 <!--<li><a href="players.html" class="nav-link">Zawodnicy</a></li>-->
                 <!--<li><a href="blog.html" class="nav-link">Blog?</a></li>-->
-                <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+                <li><a id="kontakt" href="contact.html" class="nav-link">Kontakt</a></li>
                 
                   <div class="switch btntogle">
                     <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
@@ -87,7 +87,7 @@
         <div class="row align-items-center">
           <div class="col-lg-5 ml-auto">
             <h1 class="text-white">Easy<br> Transfer<br> Move</h1>
-            <p style="font-size: large; font-weight: bold;">Twój Partner na Rynku Transferowym</p>
+            <p id="slogan" style="font-size: large; font-weight: bold;">Twój Partner na Rynku Transferowym</p>
             <p>
               <!--
               <a href="#" class="btn btn-primary py-3 px-4 mr-3">Dla Zawodników</a>
@@ -103,12 +103,12 @@
       <div id="Onas" class="container">
         <div class="row">
           <div class="col-12 title-section">
-            <h2 class="heading">O Nas</h2>
+            <h2 id="tytulAU" class="heading">O Nas</h2>
           </div>
         </div>
         <div class="row no-gutters uslugi">
-          <p><strong>Easy Transfer Move</strong> to specjalistyczna firma zajmująca się kompleksową obsługą transferów piłkarzy spoza Unii Europejskiej. Naszą misją jest wspieranie klubów piłkarskich w pozyskiwaniu utalentowanych zawodników poprzez pełną pomoc we wszystkich niezbędnych procedurach administracyjnych.</p>
-          <p>
+          <a><strong>Easy Transfer Move</strong> <p id="Opis1AU">  to specjalistyczna firma zajmująca się kompleksową obsługą transferów piłkarzy spoza Unii Europejskiej. Naszą misją jest wspieranie klubów piłkarskich w pozyskiwaniu utalentowanych zawodników poprzez pełną pomoc we wszystkich niezbędnych procedurach administracyjnych.</p></a>
+          <p id="Opis2AU">
             Dzięki nowym regulacjom, które zwiększają możliwości angażowania zagranicznych zawodników do rozgrywek, oferujemy naszym klientom nieporównywalne szanse na wzmocnienie swoich zespołów. Wykorzystujemy nasze bogate doświadczenie i sieć kontaktów na całym świecie, aby pozyskiwać graczy, którzy mogą znacząco podnieść poziom sportowy każdej drużyny.
           </p>
         </div>
@@ -119,42 +119,42 @@
       <div class="container">
         <div class="row">
           <div class="col-12 title-section">
-            <h2 class="heading">Nasze usługi obejmują</h2>
+            <h2 id="Tytul2SE" class="heading">Nasze usługi obejmują</h2>
           </div>
         </div>
         <div class="row no-gutters uslugi">
           <div class="col-md-4">
             <span class="icon-file"></span>
-            <h5>Uzyskiwanie wiz</h5>
-            <p>Pomagamy w szybkim i efektywnym uzyskiwaniu wiz dla zawodników spoza Unii Europejskiej, zapewniając pełne wsparcie w procedurach wizowych.</p>
+            <h5 id="title1SE">Uzyskiwanie wiz</h5>
+            <p id="des1AS">Pomagamy w szybkim i efektywnym uzyskiwaniu wiz dla zawodników spoza Unii Europejskiej, zapewniając pełne wsparcie w procedurach wizowych.</p>
           </div>
           <div class="col-md-4">
             <span class="icon-files-o"></span>
-            <h5>Pozwolenia na pobyt</h5>
-            <p>Zajmujemy się kompleksowym procesem uzyskiwania pozwoleń na pracę dla piłkarzy, aby mogli legalnie grać w klubach na terenie UE.</p>
+            <h5 id="title2SE">Pozwolenia na pobyt</h5>
+            <p id="des2AS">Zajmujemy się kompleksowym procesem uzyskiwania pozwoleń na pracę dla piłkarzy, aby mogli legalnie grać w klubach na terenie UE.</p>
           </div>
           <div class="col-md-4">
             <span class="icon-search-plus"></span>
-            <h5>Analiza i doradztwo</h5>
-            <p>Dostarczamy klubom analizy i raporty na temat potencjalnych zawodników, pomagając im podjąć najlepsze decyzje transferowe.
+            <h5 id="title3SE">Analiza i doradztwo</h5>
+            <p id="des3AS">Dostarczamy klubom analizy i raporty na temat potencjalnych zawodników, pomagając im podjąć najlepsze decyzje transferowe.
             </p>
           </div>
         </div>
         <div class="row no-gutters uslugi">
           <div class="col-md-4">
             <span class="icon-file-archive-o"></span>
-            <h5>Wsparcie prawne</h5>
-            <p>Oferujemy pomoc prawną w zakresie umów transferowych, kontraktów zawodniczych oraz wszelkich formalności związanych z międzynarodowymi transferami.</p>
+            <h5 id="title4SE">Wsparcie prawne</h5>
+            <p id="des4AS">Oferujemy pomoc prawną w zakresie umów transferowych, kontraktów zawodniczych oraz wszelkich formalności związanych z międzynarodowymi transferami.</p>
           </div>
           <div class="col-md-4">
             <span class="icon-people"></span>
-            <h5>Menedżerstwo</h5>
-            <p>Zajmujemy się kompleksową obsługą piłkarzy, od negocjacji kontraktów po doradztwo w sprawach kariery.</p>
+            <h5 id="title5SE">Menedżerstwo</h5>
+            <p id="des5AS">Zajmujemy się kompleksową obsługą piłkarzy, od negocjacji kontraktów po doradztwo w sprawach kariery.</p>
           </div>
           <div class="col-md-4">
             <span class="icon-work"></span>
-            <h5>Pozwolenia na pracę</h5>
-            <p>Oferujemy wsparcie w uzyskiwaniu pozwoleń na pobyt, umożliwiając zawodnikom legalne i komfortowe osiedlenie się w nowym kraju.
+            <h5 id="title6SE">Pozwolenia na pracę</h5>
+            <p id="des6AS">Oferujemy wsparcie w uzyskiwaniu pozwoleń na pobyt, umożliwiając zawodnikom legalne i komfortowe osiedlenie się w nowym kraju.
             </p>
           </div>
         </div>
@@ -168,8 +168,9 @@
             <div class="widget mb-3">
               <h3>Menu</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">Strona główna</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a id="stronaglownaFO" href="#">Strona główna</a></li>
+                <li><a id="onasFO" href="index.html#Onas">O Nas</a></li>
+                <li><a id="kontaktFO" href="contact.html">Kontakt</a></li>
               </ul>
             </div>
           </div>
@@ -179,7 +180,7 @@
               <h3>Social Media</h3>
               <ul class="list-unstyled links">
                 <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/easy-transfer-move/">LinkedIn</a></li>
               </ul>
             </div>
           </div>
@@ -225,6 +226,7 @@
 
 
   <script src="js/main.js"></script>
+  <script src="js/language.js"></script>
 
 </body>
 
