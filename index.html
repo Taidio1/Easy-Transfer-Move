@@ -50,8 +50,8 @@
               <img src="images/etm_beta.png" class="small-logo" alt="Logo">
             </a>
           </div>
-          <div class="ml-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+          <div class="ml-auto" style="display: flex;">
+            <nav class="site-navigation position-relative text-right" style="display: flex;" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active"><a id="stronaglowna" href="index.html" class="nav-link">Strona główna</a></li>
                 <li><a id="onas" href="index.html#Onas" class="nav-link">O Nas</a></li>
@@ -60,23 +60,23 @@
                 <!--<li><a href="blog.html" class="nav-link">Blog?</a></li>-->
                 <li><a id="kontakt" href="contact.html" class="nav-link">Kontakt</a></li>
                 
-                  <div class="switch btntogle">
-                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                    <label for="language-toggle"></label>
-                    <span language='polish' class="on">PL</span>
-                    <span language='english' class="off">EN</span>
-                  </div>
+                
                 
                 <li><a href="https://easy-move.pl" class="nav-link btn btn-primary py-2 px-4">Easy Move</a></li>
                 
               </ul>
+              <div class="switch btntogle">
+                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                <label for="language-toggle"></label>
+                <span language='polish' class="on">PL</span>
+                <span language='english' class="off">EN</span>
+              </div>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white">
               <span class="icon-menu h3 text-white"></span></a>
           </div>
         </div>
       </div>
-
     </header>
 
     <div class="hero overlay" style="background-image: url('images/soccer-game-concept.jpg');">
@@ -209,7 +209,7 @@
 
 
   <script src="js/main.js"></script>
-  <script src="js/language.js" async></script>
+  <script src="js/language.js"></script>
 
 </body>
 
